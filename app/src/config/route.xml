@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<routes>
+    <route path="/" action="show" controller="PostController" />
+    <route path="inscription" action="inscription" controller="UserController" />
+    <route path="connection" action="connection" controller="UserController" />
+    <route path="posts" action="posts" controller="PostController" params="id,title,content,date" />
+    <route path="post" action="post" controller="PostController" params="id,title,content,date,id_user" />
+    <route path="users" action="users" controller="UserController" params="id,firstname,lastname,mail" />
+</routes>
